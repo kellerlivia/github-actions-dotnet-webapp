@@ -3,8 +3,8 @@ name: .NET Core CI/CD
 on:
   push:
     branches: [ main ]
-  schedule:
-    - cron: '0 * * * *'  # Executa a cada hora
+  # schedule:
+  #   - cron: '0 * * * *'  # Executa a cada hora
 
 jobs:
   build:
